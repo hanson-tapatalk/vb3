@@ -29,10 +29,12 @@ $config['Database']['dbtype'] = 'mysqli';
 	//	This is the name of the database where your vBulletin will be located.
 	//	This must be created by your webhost.
 $config['Database']['dbname'] = 'vb3';
+//$config['Database']['dbname'] = 'vb_pocketables';
 
 	//	****** TABLE PREFIX ******
 	//	Prefix that your vBulletin tables have in the database.
 $config['Database']['tableprefix'] = 'vb3_';
+//$config['Database']['tableprefix'] = '';
 
 	//	****** TECHNICAL EMAIL ADDRESS ******
 	//	If any database errors occur, they will be emailed to the address specified here.
